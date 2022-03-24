@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <header >
+        <>
             <Link href="/">
-                <img src="/static/logo.svg" alt="" >
+                <img src="/static/logo.svg" alt="" />
             </Link>
             <Link href="/">
                 <h1 >FishCastle</h1>
@@ -16,6 +16,6 @@ export default function Header() {
                 </svg>
                 <span></span>
             </a>
-        </header>
+        </>
     )
 }
